@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace DateExtensionMethods
@@ -36,6 +37,17 @@ namespace DateExtensionMethods
         public static DateTime LastMonth(this DateTime startDate)
         {
             return GetResultingDate(startDate, -1);
+        }
+
+        public static DateTime GetAniversaryDate(this DateTime sourceDate)
+        {
+            return GetAniversaryDate(sourceDate, DateTime.Now);
+        }
+
+        public static DateTime GetAniversaryDate(this DateTime sourceDate, DateTime destination)
+        {
+            int day = destination.LastDayInMonth() < sourceDate.Day ? destination.LastDayInMonth() : sourceDate.Day;
+            return string.Format("{0}/{1}/{2}", destination.Month, day, destination.Year).ToDate();
         }
 
         private static DateTime GetResultingDate(DateTime startDate, int monthLocation)

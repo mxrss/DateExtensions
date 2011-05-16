@@ -76,6 +76,24 @@ namespace Tests
 
             Assert.AreEqual(shouldBe, actual);
         }
+
+        [Test]
+        public void If_given_a_date_that_is_in_the_present_or_past_determine_the_aniversary_date_for_now()
+        {
+            var actual = "1/31/2011".ToDate().GetAniversaryDate();
+            var shouldBe = "5/31/2011".ToDate();
+
+            Assert.AreEqual(shouldBe, actual);
+        }
+
+        [Test]
+        public void If_given_a_date_that_is_in_present_or_past_determine_the_aniversary_when_given_date_of_target_month()
+        {
+            var actual = "1/31/2011".ToDate().GetAniversaryDate("2/1/2011".ToDate());
+            var shouldBe = "2/28/2011".ToDate();
+
+            Assert.AreEqual(shouldBe, actual);
+        }
     }
 
 }
