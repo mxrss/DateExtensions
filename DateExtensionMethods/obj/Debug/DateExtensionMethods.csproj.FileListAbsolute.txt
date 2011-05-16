@@ -1,0 +1,5 @@
+H:\ProjectsWorks\DateExtensionMethods\DateExtensionMethods\bin\Debug\DateExtensionMethods.dll
+H:\ProjectsWorks\DateExtensionMethods\DateExtensionMethods\bin\Debug\DateExtensionMethods.pdb
+H:\ProjectsWorks\DateExtensionMethods\DateExtensionMethods\obj\Debug\ResolveAssemblyReference.cache
+H:\ProjectsWorks\DateExtensionMethods\DateExtensionMethods\obj\Debug\DateExtensionMethods.dll
+H:\ProjectsWorks\DateExtensionMethods\DateExtensionMethods\obj\Debug\DateExtensionMethods.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateExtensionMethods", "DateExtensionMethods\DateExtensionMethods.csproj", "{4E7D5FB6-9955-40DD-8561-DC6B04C0264F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2EC8B33F-78F1-40BA-8507-32C20E7919AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E7D5FB6-9955-40DD-8561-DC6B04C0264F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E7D5FB6-9955-40DD-8561-DC6B04C0264F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E7D5FB6-9955-40DD-8561-DC6B04C0264F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E7D5FB6-9955-40DD-8561-DC6B04C0264F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC8B33F-78F1-40BA-8507-32C20E7919AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC8B33F-78F1-40BA-8507-32C20E7919AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC8B33F-78F1-40BA-8507-32C20E7919AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC8B33F-78F1-40BA-8507-32C20E7919AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

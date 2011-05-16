@@ -1,0 +1,9 @@
+H:\ProjectsWorks\DateExtensionMethods\Tests\obj\Debug\ResolveAssemblyReference.cache
+H:\ProjectsWorks\DateExtensionMethods\Tests\bin\Debug\Tests.dll
+H:\ProjectsWorks\DateExtensionMethods\Tests\bin\Debug\Tests.pdb
+H:\ProjectsWorks\DateExtensionMethods\Tests\bin\Debug\DateExtensionMethods.dll
+H:\ProjectsWorks\DateExtensionMethods\Tests\bin\Debug\nunit.framework.dll
+H:\ProjectsWorks\DateExtensionMethods\Tests\bin\Debug\DateExtensionMethods.pdb
+H:\ProjectsWorks\DateExtensionMethods\Tests\bin\Debug\nunit.framework.xml
+H:\ProjectsWorks\DateExtensionMethods\Tests\obj\Debug\Tests.dll
+H:\ProjectsWorks\DateExtensionMethods\Tests\obj\Debug\Tests.pdb
